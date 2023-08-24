@@ -44,8 +44,7 @@ int main(){
             final[i] = modCadena[i];
         }
     }
-    printf("%s\n", modCadena);
-    printf("%s <---\n ", modCadenaDos);
+    printf("Cadena Modificada:\n");
     printf("%s\n", final);
     return 0;
 }

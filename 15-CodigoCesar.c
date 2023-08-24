@@ -15,7 +15,7 @@ int main(){
         scanf("%s", cadena);
     
     int i = 0;
-    for(i; i < 100; i++){
+    for(i = 0; i < 100; i++){
         acssi = cadena[i] - '0';
         if(acssi >= 17 && acssi <= 42){
             if(acssi - 42 > desp){
@@ -27,7 +27,7 @@ int main(){
         }
     }
     for(i = 0; i < 100; i++){
-        if(num[i] != 0){
+        if(num[i] >= 17 && num[i] <= 42){
             cadena[i] = num[i] + '0';
         }
     }

@@ -2,7 +2,7 @@
 
 int main(){
 
-    int numIni, numFin,i, contador;
+    int numIni, numFin,i, contador = 0;
 
     printf("Ingrese un numero entero Inicial:\n");
         scanf("%d", &numIni);

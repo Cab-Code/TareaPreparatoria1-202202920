@@ -3,7 +3,7 @@
 int main(){
 
     char cadena[100];
-    int conteo;
+    int conteo = 0;
 
     printf("ingrese una cadena de texto (Sin espacios)\n");
         scanf("%s", cadena);
